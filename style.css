@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .body {
+    transition: 1s ease-in-out background-color;
+    background-color: snow;
+  }
+  .night {
+    background-color: rgb(48, 48, 48);
+    box-shadow: 1px 1px 30px 10px #e8d609;
+    color: white;
+    border: none;
+  }
+  
+  .button {
+    cursor: pointer;
+    border-radius: 140px;
+  }
+  
